@@ -11,8 +11,9 @@ public class FamousQuotes {
         System.out.println("Choose a quote (1 - 10: ");
         int i = scanner.nextInt();
 
-        if (i >= 0 && i <= Quotes.length){
-            System.out.println("Selected quote: " + Quotes[i]);
+        if (i >= 1 && i <= Quotes.length){
+            //Need to have the "- 1" to subtrack position in the array to allow user input of 1 and 10 instead of 0 - 9.
+            System.out.println("Selected quote: " + Quotes[i - 1]);
         }else {
             System.out.println("Invalid number.");
         }
