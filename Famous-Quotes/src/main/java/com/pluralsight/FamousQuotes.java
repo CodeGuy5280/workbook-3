@@ -11,8 +11,10 @@ public class FamousQuotes {
 
         System.out.println("Type a number to reveal a quote (1 - 10: ");
 
-        int i = scanner.nextInt();
 
+        //input of an int is read by the scanner, then storing it in i
+        int i = scanner.nextInt();
+        //if the value typed is at least position 1 in the array && the value is within the range of the array
         if (i >= 1 && i <= Quotes.length) {
             //Need to have the "- 1" to subtrack position in the array to allow user input of 1 and 10 instead of 0 - 9.
             System.out.println("Selected quote: " + Quotes[i - 1]);
