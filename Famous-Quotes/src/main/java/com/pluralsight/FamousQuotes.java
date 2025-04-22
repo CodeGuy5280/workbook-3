@@ -11,7 +11,6 @@ public class FamousQuotes {
 
         System.out.println("Type a number to reveal a quote (1 - 10: ");
 
-
         //input of an int is read by the scanner, then storing it in i
         int i = scanner.nextInt();
         //if the value typed is at least position 1 in the array && the value is within the range of the array
