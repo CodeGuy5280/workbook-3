@@ -9,12 +9,12 @@ public class BedtimeStories {
 C:\Users\AlexJ\pluralsight\workbook-3\Mod01\BedtimeStories\src\main\java\com\pluralsight\DataFiles\DataFiles*/
         try {
 
-            FileInputStream fis = new FileInputStream("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/");
+            FileInputStream fis = new FileInputStream("C:/Users/AlexJ/pluralsight//workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/goldilocks.txt");
             Scanner scanner = new Scanner(fis);
 
             while (scanner.hasNextLine()) {
                 String input = scanner.nextLine();
-                System.out.println("input");
+                System.out.println(input);
             }
 
             scanner.close();
