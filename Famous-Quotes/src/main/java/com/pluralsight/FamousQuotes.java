@@ -6,7 +6,7 @@ public class FamousQuotes {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    String[] Quotes = {"Quote1", "Quote2", "Quote3", "Quote4", "Quote5", "Quote6", "Quote7", "Quote8", "Quote9", "Quote10"};
+    String[] Quotes = {"That which does not kill us makes us stronger", "Without music, life would be a mistake", "God is dead. God remains dead. And we have killed him", "To live is to suffer, to survive is to find some meaning in the suffering", "We love life, not because we are used to living, but because we are used to loving", "He who has a why to live can bear almost any how", "Be careful when you fight the monsters, lest you become one", "When you gaze long into an abyss the abyss also gazes into you", "One must still have chaos in oneself to be able to give birth to a dancing star", "I have often laughed at the weaklings who thought themselves good because they had no claws"};
 
         System.out.println("Choose a quote (1 - 10: ");
 
