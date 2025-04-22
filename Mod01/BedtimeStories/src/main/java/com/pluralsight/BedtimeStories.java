@@ -9,7 +9,7 @@ public class BedtimeStories {
 C:\Users\AlexJ\pluralsight\workbook-3\Mod01\BedtimeStories\src\main\java\com\pluralsight\DataFiles\DataFiles*/
         try {
 
-            FileInputStream fis = new FileInputStream("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/DataFiles*/");
+            FileInputStream fis = new FileInputStream("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/");
             Scanner scanner = new Scanner(fis);
 
             while (scanner.hasNextLine()) {
