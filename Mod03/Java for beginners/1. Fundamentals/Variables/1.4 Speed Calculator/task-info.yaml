@@ -1,0 +1,36 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: kilometers / hours
+    is_correct: false
+  - text: (double) kilometers / hours
+    is_correct: true
+  - text: kilometers / (double) hours
+    is_correct: true
+  - text: (double) (kilometers / hours)
+    is_correct: false
+files:
+  - name: src/SpeedCalculator.java
+    visible: true
+    placeholders:
+      - offset: 263
+        length: 27
+        placeholder_text: (speed calculation)
+        initial_state:
+          length: 19
+          offset: 263
+        initialized_from_dependency: false
+        encrypted_possible_answer: nu62WIvFaNlkWvKA7UgpUk9VGHLLjQTfRw8ePsas3zE=
+        selected: true
+        status: Failed
+    learner_created: false
+status: Failed
+feedback:
+  message: Incorrect solution
+  time: "Wed, 23 Apr 2025 19:07:54 UTC"
+record: -1
+selected_options:
+  - 1
+  - 2
+  - 3
+local_check: true
