@@ -8,7 +8,10 @@ public class Main {
     public static void main(String[] args) {
         FileReader reader;
         try {
-            reader = new FileReader("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
+            //Windoes
+            //reader = new FileReader("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
+            //Mac
+            reader = new FileReader("/Users/alexsmac/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
             BufferedReader bufferedReader = new BufferedReader(reader);
 
             Employee[] employees = new Employee[8];
