@@ -9,9 +9,9 @@ public class Main {
         FileReader reader;
         try {
             //Windows
-            //reader = new FileReader("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
+            reader = new FileReader("C:/Users/AlexJ/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
             //Mac
-            reader = new FileReader("/Users/alexsmac/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
+            //reader = new FileReader("/Users/alexsmac/pluralsight/workbook-3/Mod01/BedtimeStories/src/main/java/com/pluralsight/DataFiles/employees.csv");
             BufferedReader bufferedReader = new BufferedReader(reader);
 
             Employee[] employees = new Employee[8];
